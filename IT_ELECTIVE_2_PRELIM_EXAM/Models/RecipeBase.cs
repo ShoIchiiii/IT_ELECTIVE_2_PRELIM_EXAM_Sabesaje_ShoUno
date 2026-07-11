@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace IT_ELECTIVE_2_PRELIM_EXAM.Models;
 
 // EXERCISE 7: Inheritance - Base/Derived Classes
@@ -11,7 +13,6 @@ public class RecipeBase
     public string Title { get; set; }
     public int PrepTimeMinutes { get; set; }
     public string Difficulty { get; set; }
-
     protected List<string> steps;
 
     public RecipeBase()
